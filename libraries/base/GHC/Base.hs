@@ -1572,7 +1572,7 @@ otherwise               =  True
 --
 -- __Note:__ You can ask the compiler to automatically infer different types
 -- with the @-XOverloadedStrings@ language extension, for example
---  @"hello world" :: Text@. See @IsString@ for more information.
+--  @"hello world" :: Text@. See t'Data.String.IsString' for more information.
 --
 -- Because @String@ is just a list of characters, you can use normal list functions
 -- to do basic string manipulation. See "Data.List" for operations on lists.
