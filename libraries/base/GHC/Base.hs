@@ -1597,7 +1597,7 @@ otherwise               =  True
 -- For historical reasons, the @base@ library uses @String@ in a lot of places
 -- for the conceptual simplicity, but library code dealing with user-data
 -- should use the [text](https://hackage.haskell.org/package/text)
--- package (for Unicode text) or the the
+-- package for Unicode text, or the the
 -- [bytestring](https://hackage.haskell.org/package/bytestring) package
 -- for binary data.
 type String = [Char]
